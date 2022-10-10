@@ -49,6 +49,7 @@ Entre no diretório do projeto
 
 ```bash
   cd API - Startup
+  cd backend
 ```
 
 Instale as dependências

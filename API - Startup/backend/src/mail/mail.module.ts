@@ -14,12 +14,12 @@ import { join } from 'path';
         ignoreTLS: true,
         secure: true,
         auth: {
-          user: 'scalaemailsender@gmail.com',
+          user: 'gabrielsender@gmail.com',
           pass: 'zziozpngbkwqizbo',
         },
       },
       defaults: {
-        from: 'QBR Plataform" <scalatestsender@gmail.com>',
+        from: 'Startup" <gabrielsender@gmail.com>',
       },
       template:{
         dir: join(__dirname, 'templates'),
