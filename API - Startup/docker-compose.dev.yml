@@ -1,0 +1,16 @@
+version: '3'
+services:
+  backend:
+    container_name: startup-fiap
+    restart: always
+    image: startupfiapgabriel.azurecr.io/startup-fiap
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5001:5001
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge
