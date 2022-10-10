@@ -4,6 +4,7 @@
 Nesse repositório está presente todas as atividades referentes a Startup do curso de ADS.
 
 - Tecnologias utilizadas
+
 ![Build Framework](https://img.shields.io/static/v1?label=NestJS&message=framework&color=red&style=for-the-badge&logo=Nestjs) 
 ![Build Framework](https://img.shields.io/static/v1?label=TypeScript&message=framework&color=blue&style=for-the-badge&logo=TypeScript)
 ![Build Framework](https://img.shields.io/static/v1?label=Docker&message=framework&color=blue&style=for-the-badge&logo=Docker)
