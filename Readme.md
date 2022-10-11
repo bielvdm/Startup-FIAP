@@ -15,17 +15,18 @@ Nesse repositório está presente todas as atividades referentes a Startup do cu
 Essa API foi hospedada em um serviço de aplicativo na AZURE, tendo como base um container feito utilizando o Docker, podendo ser requisitada de qualquer lugar que possibilita o uso de requisições (postman, navegador) e será usada para a nossa aplicação WEB e Mobile, utilizando as mesmas rotas.
 
 Para fazer o teste, apenas cole a URL abaixo no Postman (ou similar de requisições)
+(Pode acontecer do container precisar warmup caso esteja muito tempo inativo, dando time out na primeira requisição)
 
 Listar Usuários (GET)
 
 ```bash
-  http://localhost:5001/data
+  https://startup-fiap.azurewebsites.net/data
 ```
 
 Cadastrar Usuários (POST)
 
 ```bash
-  http://localhost:5001/data
+  https://startup-fiap.azurewebsites.net/data
 
     --exemplo de body para cadastro
 
