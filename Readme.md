@@ -16,16 +16,20 @@ Essa API foi hospedada em um serviço de aplicativo na AZURE, tendo como base um
 
 Para fazer o teste, apenas cole a URL abaixo no Postman (ou similar de requisições)
 
+(Pode acontecer do container precisar warmup caso esteja muito tempo inativo, dando time out na primeira requisição)
+
+A ideia principal da API feita agora é sobre o controle de usuários que terá na plataforma.
+
 Listar Usuários (GET)
 
 ```bash
-  http://localhost:5001/data
+  https://startup-fiap.azurewebsites.net/data
 ```
 
 Cadastrar Usuários (POST)
 
 ```bash
-  http://localhost:5001/data
+  https://startup-fiap.azurewebsites.net/data
 
     --exemplo de body para cadastro
 
